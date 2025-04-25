@@ -49,7 +49,7 @@ All endpoints are prefixed with `/api/v1`.
     * Request Body:
         ```json
         {
-            "user_id": "string" // Required
+            "user_id": "string"
         }
         ```
     * Response (Success 201): User object (including ID, balance, created_at, updated_at).
