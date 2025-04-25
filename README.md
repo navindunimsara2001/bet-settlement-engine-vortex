@@ -20,7 +20,7 @@
     ```
     The server will start on `http://localhost:8080` by default.
 
-## How to Test [cite: 6]
+## How to Test 
 
 You can use tools like `curl`, Postman, or Insomnia to interact with the API endpoints.
 
@@ -128,7 +128,7 @@ All endpoints are prefixed with `/api/v1`.
 ### Betting Operations
 
 * **POST /bets**
-    * Description: Places a new bet for a user on a specific event. Deducts the bet amount from the user's balance. Creates the user if they don't exist (with default balance before deduction). [cite: 2]
+    * Description: Places a new bet for a user on a specific event. Deducts the bet amount from the user's balance. Creates the user if they don't exist (with default balance before deduction).
     * Request Body:
         ```json
         {
