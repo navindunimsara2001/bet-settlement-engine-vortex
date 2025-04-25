@@ -89,7 +89,7 @@ All endpoints are prefixed with `/api/v1`.
         ```json
         {
             "user_id": "string",
-            "balance": float64
+            "balance": "float64"
         }
         ```
     * Response (Error 404): User with the given ID not found.
@@ -132,10 +132,10 @@ All endpoints are prefixed with `/api/v1`.
     * Request Body:
         ```json
         {
-            "user_id": "string",  // Required
-            "event_id": "string", // Required
-            "odds": float64,      // Required, must be > 1
-            "amount": float64     // Required, must be > 0
+            "user_id": "string",  
+            "event_id": "string", 
+            "odds": "float64",      
+            "amount": "float64"     
         }
         ```
     * Response (Success 201): The created bet object (including ID, status: PLACED, created_at).
@@ -159,7 +159,7 @@ All endpoints are prefixed with `/api/v1`.
     * Request Body:
         ```json
         {
-            "result": "string" // Required, must be "win" or "lose"
+            "result": "string"
         }
         ```
     * Response (Success 200): Confirmation message.
