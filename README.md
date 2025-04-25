@@ -16,7 +16,7 @@
 
 3.  **Run the application:**
     ```bash
-    go run cmd/api/main.go
+    go run cmd/main.go
     ```
     The server will start on `http://localhost:8080` by default.
 
